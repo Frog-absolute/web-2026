@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Golos-UI_Regular;
+    src: url(/css/fonts/Golos-UI_Regular.ttf);
+}
+
+@font-face {
+    font-family: Golos-UI_Bold;
+    src: url(/css/fonts/Golos-UI_Bold.ttf);
+}
+
+body {
+    font-family: Golos-UI_Regular;
+    background-color: #fff;
+    width: 1440px;
+    height: 1080px;
+}
+
+.sidebar {
+    width: 72px;
+    height: 1080px;
+    left: -1px;
+    border: 1px;
+    background-color: #fff;
+}
+
+.sidebar-icon {
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-dot {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-user {
+    margin-top: 15px;
+}
+
+.icon-plus {
+    margin-top: 4px;
+}
+
+.profile-info {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 500px;
+}
+
+.profile-avatar {
+    width: 123px;
+    height: 123px;
+    margin: auto;
+}
+
+.profile-name {
+    font-family: Golos-UI_Bold;
+    font-size: medium;
+    color: #222222;
+    margin: 15px auto auto;
+
+}
+
+.profile-text {
+    font-family: Golos-UI_Regular;
+    font-size: small;
+    color: #222;
+    margin: 15px auto auto;
+}
+
+.post-quantity {
+    position: relative;
+    width: 101px;
+    height: 30px;
+    margin: 15px auto auto;
+}
+
+.grid {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 323px 323px 323px;
+    grid-template-rows: 323px 323px auto;
+    grid-gap: 2px;
+    width: 980px;
+    height: 700px;
+    left: 218px;
+    top: 390px;
+
+}
